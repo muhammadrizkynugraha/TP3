@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <style>
+        .profil-container {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* jarak antar foto & video */
+            margin-bottom: 30px;
+        }
+        .profil-container img {
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profil Pribadi</h1>
+
+    <!-- Foto & Video berdampingan -->
+    <div class="profil-container">
+        <!-- Foto -->
+        <img src="images.jpg"Foto Profil">
+
+        <!-- Video -->
+        <iframe width="400" height="225"
+            src="https://www.youtube.com/embed/oYHdKBfTwbE"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya Muhammad Rizky Nugraha Muhammad, seorang mahasiswa Teknologi Informasi yang antusias belajar teknologi baru dan pengembangan diri.</p>
+
+    <h2>Keterampilan</h2>
+    <table border="1" cellpadding="8">
+        <tr><th>Keterampilan</th><th>Tingkat</th></tr>
+        <tr><td>HTML/CSS</td><td>Menengah</td></tr>
+        <tr><td>Java</td><td>Menengah</td></tr>
+        <tr><td>Python</td><td>Pemula</td></tr>
+    </table>
+
+    <h2>Hubungi Saya</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="5" cols="40"></textarea><br><br>
+
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <h2>Media Sosial</h2>
+    <p><a href="https://github.com/username" target="_blank">GitHub</a> | <a href="https://twitter.com" target="_blank">Twitter</a></p>
+</body>
+</html>
